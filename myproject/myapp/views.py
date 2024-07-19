@@ -1,12 +1,20 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
-def index_view(request):
-    return HttpResponse("<h1>Это мой первый проект на Django.</h1>")
+def index(request):
+    return render(request, 'myapp/index.html')
 
-def data_view(request):
-    return HttpResponse("<h1>Вторая страница проекта на Django - data.</h1>")
+def data(request):
+    return render(request, 'myapp/data.html')
 
-def test_view(request):
-    return HttpResponse("<h1>Третья страница проекта на Django - test.</h1>")
+def test(request):
+    return render(request, 'myapp/test.html')
+
+def about(request):
+    return render(request, 'myapp/about.html')
+
+
+
+
+
 
 

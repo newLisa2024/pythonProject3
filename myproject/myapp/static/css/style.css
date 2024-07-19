@@ -1,0 +1,18 @@
+.jumbotron {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/elenal0095_website_template_web_development_company_for_website_cb9c00d3-6f31-4b19-92af-55b51e7bdf96.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+/* static/css/styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
